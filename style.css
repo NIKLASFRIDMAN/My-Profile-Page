@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins&display=swap');
+
+body  {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-size: 24px;
+  line-height: normal;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family:'Poppins' ;
+  color:rgb(84, 99, 151);
+  font-size: 34px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+a {
+  font-family:'Poppins' ;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(205,157,131);
+}
+a:hover {
+  color: rgb(147, 159, 199);
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgb(224, 226, 231);
+  background-color: rgb(205,157,131);
+  width: 300px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 24px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  margin: 24px auto;
+  width: 500px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgb(224, 226, 231);
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-icon {
+  font-size: 34px;
+  color: rgb(205,157,131)d;
+  padding: 1px;
+ }
+
+.blue-button {
+  background-color: rgb(205,157,131);
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgb(147, 159, 199);
+}
+.blue-button:hover {
+  background-color: rgb(147, 159, 199);
+  color: white;
+}
+
+/*
+h1 {
+color: #00aeff;
+}
+
+h2 {
+  color: rgb(255, 153, 0);
+}
+
+a {
+font-weight: bold;
+text-decoration: none;
+color: blueviolet;
+}
+a:hover {
+color: rgb(153, 131, 173);
+ }
+
+
+.card-white {background: white;
+padding: 24px;
+margin: 24px auto;
+box-shadow: 0 5px 15px rgb(224, 226, 231);
+width: 500px;
+text-align: center;
+border-radius: 4px;}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+background-color: darkgoldenrod;
+color: white;
+padding: 8px 24px;
+border-radius: 4px;
+box-shadow: 0 5px 15px rgb(88, 89, 94);
+
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+ .list-inline {
+  padding: 0;
+ }
+
+  .list-inline li {
+  display: inline-block;
+ }
+
+ .social-icon {
+font-size: 89px;
+color: darkgreen;
+margin: 8px, 24px;
+padding: 24px;
+ } */
